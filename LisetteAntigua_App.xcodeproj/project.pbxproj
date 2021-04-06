@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		5B04F625261BB9A900775C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04F624261BB9A900775C15 /* AppDelegate.swift */; };
-		5B04F627261BB9A900775C15 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04F626261BB9A900775C15 /* art.scnassets */; };
 		5B04F629261BB9A900775C15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04F628261BB9A900775C15 /* ViewController.swift */; };
 		5B04F62C261BB9A900775C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04F62A261BB9A900775C15 /* Main.storyboard */; };
 		5B04F62E261BB9AD00775C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04F62D261BB9AD00775C15 /* Assets.xcassets */; };
 		5B04F631261BB9AD00775C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04F62F261BB9AD00775C15 /* LaunchScreen.storyboard */; };
+		5B04F63A261BBC6600775C15 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04F639261BBC6600775C15 /* HomeViewController.swift */; };
+		5B04F641261BE36200775C15 /* scientists.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B04F640261BE36200775C15 /* scientists.json */; };
+		5B04F644261BE39B00775C15 /* Scientist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04F643261BE39B00775C15 /* Scientist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B04F621261BB9A900775C15 /* LisetteAntigua_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisetteAntigua_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B04F624261BB9A900775C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B04F626261BB9A900775C15 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		5B04F628261BB9A900775C15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B04F62B261BB9A900775C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B04F62D261BB9AD00775C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B04F630261BB9AD00775C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B04F632261BB9AD00775C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B04F639261BBC6600775C15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B04F640261BE36200775C15 /* scientists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scientists.json; sourceTree = "<group>"; };
+		5B04F643261BE39B00775C15 /* Scientist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scientist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				5B04F624261BB9A900775C15 /* AppDelegate.swift */,
-				5B04F626261BB9A900775C15 /* art.scnassets */,
 				5B04F628261BB9A900775C15 /* ViewController.swift */,
+				5B04F639261BBC6600775C15 /* HomeViewController.swift */,
 				5B04F62A261BB9A900775C15 /* Main.storyboard */,
 				5B04F62D261BB9AD00775C15 /* Assets.xcassets */,
 				5B04F62F261BB9AD00775C15 /* LaunchScreen.storyboard */,
 				5B04F632261BB9AD00775C15 /* Info.plist */,
+				5B04F640261BE36200775C15 /* scientists.json */,
+				5B04F643261BE39B00775C15 /* Scientist.swift */,
 			);
 			path = LisetteAntigua_App;
 			sourceTree = "<group>";
@@ -124,7 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B04F627261BB9A900775C15 /* art.scnassets in Resources */,
+				5B04F641261BE36200775C15 /* scientists.json in Resources */,
 				5B04F631261BB9AD00775C15 /* LaunchScreen.storyboard in Resources */,
 				5B04F62E261BB9AD00775C15 /* Assets.xcassets in Resources */,
 				5B04F62C261BB9A900775C15 /* Main.storyboard in Resources */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B04F644261BE39B00775C15 /* Scientist.swift in Sources */,
 				5B04F629261BB9A900775C15 /* ViewController.swift in Sources */,
 				5B04F625261BB9A900775C15 /* AppDelegate.swift in Sources */,
+				5B04F63A261BBC6600775C15 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X9MXMWF9KT;
 				INFOPLIST_FILE = LisetteAntigua_App/Info.plist;
@@ -295,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LisetteAntigua.LisetteAntigua-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X9MXMWF9KT;
 				INFOPLIST_FILE = LisetteAntigua_App/Info.plist;
@@ -314,6 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.LisetteAntigua.LisetteAntigua-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
