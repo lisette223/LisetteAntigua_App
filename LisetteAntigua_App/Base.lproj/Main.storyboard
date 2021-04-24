@@ -1,23 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0qx-kE-S6O">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0tl-T3-Uk3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--SCIENCE-->
+        <scene sceneID="qn0-3Q-zor">
+            <objects>
+                <viewController id="SNr-Dj-6pT" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IvJ-Ca-AIh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Eos-ER-l4o">
+                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="SCIENCE" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="fEl-en-Q9F">
+                                        <rect key="frame" x="94" y="0.0" width="206" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="CMQ-o7-47N">
+                                        <rect key="frame" x="0.0" y="218" width="394" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                        <string key="text">The science in STEM typically refers to two out of the three major branches of science: natural sciences, including biology, physics, and chemistry; and formal sciences, of which mathematics is an example, along with logic and statistics.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Science careers" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-dh-IYJ">
+                                        <rect key="frame" x="0.0" y="436" width="394" height="218"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="lNt-dh-IYJ"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5JE-jg-Dv0"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Eos-ER-l4o" secondAttribute="trailing" id="5WF-PL-kq8">
+                                <variation key="heightClass=compact-widthClass=regular" constant="2"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="Eos-ER-l4o" secondAttribute="bottom" multiplier="1.1" constant="50" id="Nkw-tL-abl"/>
+                            <constraint firstItem="Eos-ER-l4o" firstAttribute="top" secondItem="IvJ-Ca-AIh" secondAttribute="top" constant="115" id="Sqr-6U-Hyd">
+                                <variation key="widthClass=regular" constant="17"/>
+                            </constraint>
+                            <constraint firstItem="Eos-ER-l4o" firstAttribute="leading" secondItem="5JE-jg-Dv0" secondAttribute="leading" constant="20" id="Yz2-UK-LWh"/>
+                            <constraint firstItem="Eos-ER-l4o" firstAttribute="leading" secondItem="5JE-jg-Dv0" secondAttribute="leading" constant="20" id="swN-Af-DYE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="SCIENCE" image="gyroscope" catalog="system" selectedImage="gyroscope" id="3qP-Gx-V2h"/>
+                    <navigationItem key="navigationItem" id="1Zi-xg-E6Y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8jP-fi-zXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033" y="802"/>
+        </scene>
+        <!--TECHNOLOGY-->
+        <scene sceneID="HiZ-ET-uLw">
+            <objects>
+                <viewController title="TECHNOLOGY" id="fMC-QZ-vz9" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bRS-HV-Jr1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fto-ay-NOu">
+                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="TECHNOLOGY" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="K6i-Jy-Dry">
+                                        <rect key="frame" x="30" y="0.0" width="334.5" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="b2A-du-jJn">
+                                        <rect key="frame" x="0.0" y="218" width="394" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                        <string key="text">Technology careers offer professionals the opportunity to work in many industries, including healthcare and business. Careers in technology can be pursued in several work environments, including fast-paced startups, innovative tech firms, and small IT departments.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Technology Careers" translatesAutoresizingMaskIntoConstraints="NO" id="kBC-df-l25">
+                                        <rect key="frame" x="0.0" y="436" width="394" height="218"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="kBC-df-l25"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="BQm-Sy-uxc"/>
+                        <color key="backgroundColor" red="0.73471611738204956" green="0.91539287567138672" blue="0.5564998984336853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fto-ay-NOu" firstAttribute="top" secondItem="bRS-HV-Jr1" secondAttribute="top" constant="115" id="2o6-Xr-vvg">
+                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="fto-ay-NOu" firstAttribute="leading" secondItem="BQm-Sy-uxc" secondAttribute="leading" constant="20" id="PsO-Ba-ypz"/>
+                            <constraint firstItem="fto-ay-NOu" firstAttribute="leading" secondItem="BQm-Sy-uxc" secondAttribute="leading" constant="20" id="pHz-pZ-nmo"/>
+                            <constraint firstAttribute="bottom" secondItem="fto-ay-NOu" secondAttribute="bottom" multiplier="1.1" constant="50" id="r3h-CA-egu"/>
+                            <constraint firstAttribute="trailing" secondItem="fto-ay-NOu" secondAttribute="trailing" id="vXx-hL-aup">
+                                <variation key="heightClass=compact-widthClass=regular" constant="2"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TECHNOLOGY" image="gyroscope" catalog="system" selectedImage="keyboard" id="pW0-a5-qDf"/>
+                    <navigationItem key="navigationItem" id="QvA-fY-ns6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RcZ-oR-fE1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1749" y="802"/>
+        </scene>
         <!--ARKIT-->
         <scene sceneID="tXr-a1-R10">
             <objects>
                 <viewController title="ARKIT" id="BV1-FR-VrT" customClass="ViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                             </arscnView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
@@ -29,14 +154,14 @@
                             <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="kO1-oo-bym"/>
+                    <navigationItem key="navigationItem" title="Famous STEM Proffesionals" largeTitleDisplayMode="never" id="kO1-oo-bym"/>
                     <connections>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="74"/>
+            <point key="canvasLocation" x="923.1884057971015" y="73.660714285714278"/>
         </scene>
         <!--Home-->
         <scene sceneID="k0p-cX-Rdq">
@@ -46,25 +171,236 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N44-mS-A9R">
-                                <rect key="frame" x="184" y="351" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="Icg-yX-YCN"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UNh-5C-Kle">
+                                <rect key="frame" x="0.0" y="126" width="414" height="736"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ALH-9d-yV3">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="660"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn STEM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JE-gq-dq9">
+                                                <rect key="frame" x="48" y="0.0" width="318.5" height="70"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="64"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" image="STEM logo" translatesAutoresizingMaskIntoConstraints="NO" id="Afw-tv-MNr">
+                                                <rect key="frame" x="0.0" y="70" width="414" height="590"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwE-Po-DwB">
+                                        <rect key="frame" x="143" y="668" width="128" height="30"/>
+                                        <state key="normal" title="Learn About STEM"/>
+                                        <connections>
+                                            <segue destination="1fY-pv-zns" kind="show" id="u97-6z-aT9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N44-mS-A9R">
+                                        <rect key="frame" x="95" y="706" width="224" height="30"/>
+                                        <state key="normal" title="Learn About STEM Professionals"/>
+                                        <connections>
+                                            <segue destination="BV1-FR-VrT" kind="show" id="Icg-yX-YCN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C00-9F-jyK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UNh-5C-Kle" firstAttribute="top" secondItem="C00-9F-jyK" secondAttribute="top" constant="-14" id="2hy-YZ-UQ9"/>
+                            <constraint firstAttribute="trailing" secondItem="UNh-5C-Kle" secondAttribute="trailing" id="5O2-wb-QY2"/>
+                            <constraint firstItem="UNh-5C-Kle" firstAttribute="leading" secondItem="C00-9F-jyK" secondAttribute="leading" id="9bP-cl-X2B"/>
+                            <constraint firstAttribute="bottom" secondItem="UNh-5C-Kle" secondAttribute="bottom" constant="34" id="hcK-BN-zxZ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ooG-Qo-0f0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sve-8H-97C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-981" y="74"/>
+            <point key="canvasLocation" x="-71.014492753623188" y="73.660714285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="K61-jU-PAt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0tl-T3-Uk3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ayc-LQ-Dya">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0qx-kE-S6O" kind="relationship" relationship="rootViewController" id="K6q-Ct-uWx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ccf-hr-cBd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-981.15942028985512" y="73.660714285714278"/>
+        </scene>
+        <!--Tab Controller-->
+        <scene sceneID="0X0-EK-vfv">
+            <objects>
+                <tabBarController title="Tab Controller" automaticallyAdjustsScrollViewInsets="NO" id="1fY-pv-zns" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="0aQ-fN-yGZ"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sah-sr-4tx">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SNr-Dj-6pT" kind="relationship" relationship="viewControllers" id="SHn-PJ-j3U"/>
+                        <segue destination="fMC-QZ-vz9" kind="relationship" relationship="viewControllers" id="l4v-Wf-QrQ"/>
+                        <segue destination="FWN-WT-cri" kind="relationship" relationship="viewControllers" id="fqc-yt-Dhn"/>
+                        <segue destination="gtw-ew-dfb" kind="relationship" relationship="viewControllers" id="Xkg-7z-r0c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AOc-Hc-xG2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="958"/>
+        </scene>
+        <!--ENGINEERING-->
+        <scene sceneID="utj-Qh-A0L">
+            <objects>
+                <viewController title="ENGINEERING" id="FWN-WT-cri" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nqY-dE-eIJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yqa-Df-TxH">
+                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="ENGINEERING" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIs-4r-trF">
+                                        <rect key="frame" x="36.5" y="0.0" width="321" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="XVy-QG-jMv">
+                                        <rect key="frame" x="0.0" y="218" width="394" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                        <string key="text">The broad field of engineering encompasses an array of rewarding opportunities. Most engineers focus on a specific specialization, such as civil, aerospace, or electrical engineering. Many engineers have rewarding careers working with cutting edge technology. With this advanced technology, the engineering field is ever-evolving and innovative. Engineers typically enjoy working in collaboration with other team members to develop innovations in technology. Their work environment is rarely stagnant.
+
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Engineering Careers" translatesAutoresizingMaskIntoConstraints="NO" id="mKL-et-41u">
+                                        <rect key="frame" x="0.0" y="436" width="394" height="218"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="mKL-et-41u"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Psa-2r-tvC"/>
+                        <color key="backgroundColor" red="0.9299587607383728" green="0.92005962133407593" blue="0.67579811811447144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yqa-Df-TxH" firstAttribute="top" secondItem="nqY-dE-eIJ" secondAttribute="top" constant="115" id="AEE-q8-jHE">
+                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstAttribute="bottom" secondItem="Yqa-Df-TxH" secondAttribute="bottom" multiplier="1.1" constant="50" id="EKf-cQ-t3G"/>
+                            <constraint firstAttribute="trailing" secondItem="Yqa-Df-TxH" secondAttribute="trailing" id="FTE-44-C4F">
+                                <variation key="heightClass=compact-widthClass=regular" constant="2"/>
+                            </constraint>
+                            <constraint firstItem="Yqa-Df-TxH" firstAttribute="leading" secondItem="Psa-2r-tvC" secondAttribute="leading" constant="20" id="L6u-5p-6kt"/>
+                            <constraint firstItem="Yqa-Df-TxH" firstAttribute="leading" secondItem="Psa-2r-tvC" secondAttribute="leading" constant="20" id="v2k-Uz-YAv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="ENGINEERING" image="gearshape.2.fill" catalog="system" selectedImage="gearshape.2" id="ViT-p7-LDU"/>
+                    <navigationItem key="navigationItem" id="TWH-hE-Iy5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8b-Ao-8Vh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2464" y="802"/>
+        </scene>
+        <!--MATHEMATICS-->
+        <scene sceneID="8m4-Yy-PWp">
+            <objects>
+                <viewController title="MATHEMATICS" id="gtw-ew-dfb" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adh-Vc-ocD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kf6-kF-ZLk">
+                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="MATHEMATICS" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdW-bu-bFc">
+                                        <rect key="frame" x="25.5" y="0.0" width="343" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                                        <variation key="heightClass=compact-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="11" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="Rpy-Zv-m8z">
+                                        <rect key="frame" x="0.0" y="218" width="394" height="218"/>
+                                        <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                        <string key="text">The demand for mathematics experts has grown exponentially in a number of careers—and so has the interest in these jobs. According to the Mathematical Association of America, math professions are becoming increasingly attractive.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Math careers" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-ol-PJ6">
+                                        <rect key="frame" x="0.0" y="436" width="394" height="218"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="subviews">
+                                        <include reference="Lu8-ol-PJ6"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Pkq-zK-bYv"/>
+                        <color key="backgroundColor" red="0.92564409971237183" green="0.69768530130386353" blue="0.61383819580078125" alpha="0.9995117188" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kf6-kF-ZLk" firstAttribute="leading" secondItem="Pkq-zK-bYv" secondAttribute="leading" constant="20" id="0bi-VO-igJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Kf6-kF-ZLk" secondAttribute="bottom" multiplier="1.1" constant="50" id="ARu-VF-hFd"/>
+                            <constraint firstItem="Kf6-kF-ZLk" firstAttribute="top" secondItem="adh-Vc-ocD" secondAttribute="top" constant="115" id="F1t-lP-Q0M">
+                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="Kf6-kF-ZLk" firstAttribute="leading" secondItem="Pkq-zK-bYv" secondAttribute="leading" constant="20" id="N2G-Dr-57y"/>
+                            <constraint firstAttribute="trailing" secondItem="Kf6-kF-ZLk" secondAttribute="trailing" id="WeN-7s-N0o">
+                                <variation key="heightClass=compact-widthClass=regular" constant="2"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MATHEMATICS" image="minus.slash.plus" catalog="system" selectedImage="gyroscope" id="Nrd-1O-MEl"/>
+                    <navigationItem key="navigationItem" id="6zs-V7-18i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wOW-z9-Tfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3291" y="781"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Engineering Careers" width="640" height="799"/>
+        <image name="Math careers" width="450" height="636"/>
+        <image name="STEM logo" width="920" height="904"/>
+        <image name="Science careers" width="1500" height="1000"/>
+        <image name="Technology Careers" width="430" height="559"/>
+        <image name="gearshape.2" catalog="system" width="128" height="100"/>
+        <image name="gearshape.2.fill" catalog="system" width="128" height="100"/>
+        <image name="gyroscope" catalog="system" width="128" height="121"/>
+        <image name="keyboard" catalog="system" width="128" height="79"/>
+        <image name="minus.slash.plus" catalog="system" width="128" height="115"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

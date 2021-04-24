@@ -60,17 +60,33 @@
 		5B04F623261BB9A900775C15 /* LisetteAntigua_App */ = {
 			isa = PBXGroup;
 			children = (
+				5B04F647261C04F100775C15 /* View Controllers */,
+				5B04F646261C04C800775C15 /* Model */,
 				5B04F624261BB9A900775C15 /* AppDelegate.swift */,
-				5B04F628261BB9A900775C15 /* ViewController.swift */,
-				5B04F639261BBC6600775C15 /* HomeViewController.swift */,
 				5B04F62A261BB9A900775C15 /* Main.storyboard */,
 				5B04F62D261BB9AD00775C15 /* Assets.xcassets */,
 				5B04F62F261BB9AD00775C15 /* LaunchScreen.storyboard */,
 				5B04F632261BB9AD00775C15 /* Info.plist */,
-				5B04F640261BE36200775C15 /* scientists.json */,
-				5B04F643261BE39B00775C15 /* Scientist.swift */,
 			);
 			path = LisetteAntigua_App;
+			sourceTree = "<group>";
+		};
+		5B04F646261C04C800775C15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B04F643261BE39B00775C15 /* Scientist.swift */,
+				5B04F640261BE36200775C15 /* scientists.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B04F647261C04F100775C15 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B04F628261BB9A900775C15 /* ViewController.swift */,
+				5B04F639261BBC6600775C15 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
