@@ -5,6 +5,7 @@
 //  Created by Paul Hudson on 28/04/2019.
 //  Copyright © 2019 Hacking with Swift. All rights reserved.
 //
+
 import UIKit
 import SceneKit
 import ARKit
@@ -70,7 +71,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
 
 
-        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 100)
+        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 50)
         bioNode.pivotOnTopLeft()
 
         bioNode.position.x += Float(plane.width / 2) + spacing
@@ -86,6 +87,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                fieldNode.position.y += Float(plane.height / 2) + spacing
                planeNode.addChildNode(fieldNode)
                
+
+
         return node
     }
 

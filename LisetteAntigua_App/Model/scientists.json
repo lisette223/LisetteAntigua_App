@@ -53,6 +53,13 @@
 		"field": "Engineering",
 		"bio": "Nikola Tesla (10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system.",
 		"source": "https://en.wikipedia.org/wiki/Nikola_Tesla"
-	}
+	},
+    
+    "turing": {
+        "name": "Alan Turing",
+        "field": "Various STEM Fields",
+        "bio": "Alan Mathison Turing; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist.Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.[8][9][10] Turing is widely considered to be the father of theoretical computer science and artificial intelligence.",
+        "source": "https://en.wikipedia.org/wiki/Alan_Turing"
+    }
    
 }

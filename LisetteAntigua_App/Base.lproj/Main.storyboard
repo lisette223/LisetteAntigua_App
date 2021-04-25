@@ -39,7 +39,7 @@
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Science careers" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-dh-IYJ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="science careers" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-dh-IYJ">
                                         <rect key="frame" x="0.0" y="436" width="394" height="218"/>
                                     </imageView>
                                 </subviews>
@@ -354,7 +354,7 @@
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Math careers" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-ol-PJ6">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="math careers" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-ol-PJ6">
                                         <rect key="frame" x="0.0" y="436" width="394" height="218"/>
                                     </imageView>
                                 </subviews>
@@ -389,15 +389,15 @@
     </scenes>
     <resources>
         <image name="Engineering Careers" width="640" height="799"/>
-        <image name="Math careers" width="450" height="636"/>
         <image name="STEM logo" width="920" height="904"/>
-        <image name="Science careers" width="1500" height="1000"/>
         <image name="Technology Careers" width="430" height="559"/>
         <image name="gearshape.2" catalog="system" width="128" height="100"/>
         <image name="gearshape.2.fill" catalog="system" width="128" height="100"/>
         <image name="gyroscope" catalog="system" width="128" height="121"/>
         <image name="keyboard" catalog="system" width="128" height="79"/>
+        <image name="math careers" width="450" height="636"/>
         <image name="minus.slash.plus" catalog="system" width="128" height="115"/>
+        <image name="science careers" width="1500" height="1000"/>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

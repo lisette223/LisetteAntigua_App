@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "darwin.jpg",
+      "filename" : "turing.jpg",
       "idiom" : "universal"
     }
   ],
@@ -10,7 +10,6 @@
     "version" : 1
   },
   "properties" : {
-    "unit" : "centimeters",
-    "width" : 5.9459399999999993
+    "width" : 6.2431991294885751
   }
 }
