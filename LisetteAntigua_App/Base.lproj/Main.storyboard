@@ -24,9 +24,7 @@
                                         <rect key="frame" x="104" y="0.0" width="206" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.14999999999999999" height="0.0"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="AjX-9S-EPi">
-                                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
-                                            </constraint>
+                                            <constraint firstAttribute="height" constant="50" id="AjX-9S-EPi"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="51"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -37,10 +35,10 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="CMQ-o7-47N">
-                                        <rect key="frame" x="20" y="50" width="374" height="150"/>
+                                        <rect key="frame" x="20" y="50" width="374" height="100"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="j5n-Wr-vqL"/>
+                                            <constraint firstAttribute="height" constant="100" id="j5n-Wr-vqL"/>
                                         </constraints>
                                         <string key="text">The science in STEM typically refers to two out of the three major branches of science: natural sciences, including biology, physics, and chemistry; and formal sciences, of which mathematics is an example, along with logic and statistics.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -48,7 +46,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="science careers" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-dh-IYJ">
-                                        <rect key="frame" x="0.0" y="200" width="414" height="429"/>
+                                        <rect key="frame" x="0.0" y="150" width="414" height="479"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -71,7 +69,7 @@
                             </constraint>
                             <constraint firstAttribute="bottom" secondItem="Eos-ER-l4o" secondAttribute="bottom" multiplier="1.1" constant="50" id="Nkw-tL-abl"/>
                             <constraint firstItem="Eos-ER-l4o" firstAttribute="top" secondItem="5JE-jg-Dv0" secondAttribute="top" id="Sqr-6U-Hyd">
-                                <variation key="widthClass=regular" constant="17"/>
+                                <variation key="widthClass=regular" constant="0.0"/>
                             </constraint>
                             <constraint firstItem="Eos-ER-l4o" firstAttribute="leading" secondItem="5JE-jg-Dv0" secondAttribute="leading" id="swN-Af-DYE"/>
                         </constraints>
@@ -92,13 +90,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fto-ay-NOu">
-                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <rect key="frame" x="20" y="115" width="374" height="654"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="TECHNOLOGY" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6i-Jy-Dry">
-                                        <rect key="frame" x="30" y="0.0" width="334.5" height="60"/>
+                                        <rect key="frame" x="20" y="0.0" width="334.5" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="wRf-k0-tMP"/>
+                                            <constraint firstAttribute="height" constant="50" id="wRf-k0-tMP"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="51"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -109,7 +107,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="b2A-du-jJn">
-                                        <rect key="frame" x="0.0" y="60" width="394" height="200"/>
+                                        <rect key="frame" x="0.0" y="50" width="374" height="200"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="yn0-ML-VIf">
@@ -122,7 +120,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Technology Careers" translatesAutoresizingMaskIntoConstraints="NO" id="kBC-df-l25">
-                                        <rect key="frame" x="0.0" y="260" width="394" height="394"/>
+                                        <rect key="frame" x="0.0" y="250" width="374" height="404"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular">
@@ -136,12 +134,12 @@
                         <color key="backgroundColor" red="0.73471611738204956" green="0.91539287567138672" blue="0.5564998984336853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fto-ay-NOu" firstAttribute="top" secondItem="bRS-HV-Jr1" secondAttribute="top" constant="115" id="2o6-Xr-vvg">
-                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
                             </constraint>
                             <constraint firstItem="fto-ay-NOu" firstAttribute="leading" secondItem="BQm-Sy-uxc" secondAttribute="leading" constant="20" id="PsO-Ba-ypz"/>
                             <constraint firstItem="fto-ay-NOu" firstAttribute="leading" secondItem="BQm-Sy-uxc" secondAttribute="leading" constant="20" id="pHz-pZ-nmo"/>
                             <constraint firstAttribute="bottom" secondItem="fto-ay-NOu" secondAttribute="bottom" multiplier="1.1" constant="50" id="r3h-CA-egu"/>
-                            <constraint firstAttribute="trailing" secondItem="fto-ay-NOu" secondAttribute="trailing" id="vXx-hL-aup">
+                            <constraint firstAttribute="trailing" secondItem="fto-ay-NOu" secondAttribute="trailing" constant="20" id="vXx-hL-aup">
                                 <variation key="heightClass=compact-widthClass=regular" constant="2"/>
                             </constraint>
                         </constraints>
@@ -291,14 +289,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yqa-Df-TxH">
-                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <rect key="frame" x="20" y="115" width="374" height="654"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="ENGINEERING" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIs-4r-trF">
-                                        <rect key="frame" x="36.5" y="0.0" width="321" height="50"/>
+                                        <rect key="frame" x="26.5" y="0.0" width="321" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="oQ8-ee-20s">
-                                                <variation key="heightClass=compact-widthClass=regular" constant="80"/>
+                                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
                                             </constraint>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="51"/>
@@ -310,22 +308,21 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="XVy-QG-jMv">
-                                        <rect key="frame" x="0.0" y="50" width="394" height="300"/>
+                                        <rect key="frame" x="0.0" y="50" width="374" height="300"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="hUA-QH-fsb">
-                                                <variation key="heightClass=compact-widthClass=regular" constant="100"/>
+                                                <variation key="heightClass=compact-widthClass=regular" constant="150"/>
                                             </constraint>
                                         </constraints>
-                                        <string key="text">The broad field of engineering encompasses an array of rewarding opportunities. Most engineers focus on a specific specialization, such as civil, aerospace, or electrical engineering. Many engineers have rewarding careers working with cutting edge technology. With this advanced technology, the engineering field is ever-evolving and innovative. Engineers typically enjoy working in collaboration with other team members to develop innovations in technology. Their work environment is rarely stagnant.
-
+                                        <string key="text">The broad field of engineering encompasses an array of rewarding opportunities. Most engineers focus on a specific specialization, such as civil, aerospace, or electrical engineering. Many engineers have rewarding careers working with cutting edge technology. With this advanced technology, the engineering field is ever-evolving and innovative. Engineers typically enjoy working in collaboration with other team members to develop innovations in technology. 
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Engineering Careers" translatesAutoresizingMaskIntoConstraints="NO" id="mKL-et-41u">
-                                        <rect key="frame" x="0.0" y="350" width="394" height="304"/>
+                                        <rect key="frame" x="0.0" y="350" width="374" height="304"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular">
@@ -339,10 +336,10 @@
                         <color key="backgroundColor" red="0.9299587607383728" green="0.92005962133407593" blue="0.67579811811447144" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Yqa-Df-TxH" firstAttribute="top" secondItem="nqY-dE-eIJ" secondAttribute="top" constant="115" id="AEE-q8-jHE">
-                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
                             </constraint>
                             <constraint firstAttribute="bottom" secondItem="Yqa-Df-TxH" secondAttribute="bottom" multiplier="1.1" constant="50" id="EKf-cQ-t3G"/>
-                            <constraint firstAttribute="trailing" secondItem="Yqa-Df-TxH" secondAttribute="trailing" id="FTE-44-C4F">
+                            <constraint firstAttribute="trailing" secondItem="Yqa-Df-TxH" secondAttribute="trailing" constant="20" id="FTE-44-C4F">
                                 <variation key="heightClass=compact-widthClass=regular" constant="2"/>
                             </constraint>
                             <constraint firstItem="Yqa-Df-TxH" firstAttribute="leading" secondItem="Psa-2r-tvC" secondAttribute="leading" constant="20" id="L6u-5p-6kt"/>
@@ -365,14 +362,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kf6-kF-ZLk">
-                                <rect key="frame" x="20" y="115" width="394" height="654"/>
+                                <rect key="frame" x="20" y="115" width="374" height="654"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="MATHEMATICS" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdW-bu-bFc">
-                                        <rect key="frame" x="25.5" y="0.0" width="343" height="50"/>
+                                        <rect key="frame" x="15.5" y="0.0" width="343" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="vzV-0l-YRn">
-                                                <variation key="heightClass=compact-widthClass=regular" constant="100"/>
+                                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
                                             </constraint>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="51"/>
@@ -384,7 +381,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="11" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="Rpy-Zv-m8z">
-                                        <rect key="frame" x="0.0" y="50" width="394" height="200"/>
+                                        <rect key="frame" x="0.0" y="50" width="374" height="200"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="eQD-MN-jhN">
@@ -397,7 +394,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="math careers" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-ol-PJ6">
-                                        <rect key="frame" x="0.0" y="250" width="394" height="404"/>
+                                        <rect key="frame" x="0.0" y="250" width="374" height="404"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular">
@@ -413,15 +410,15 @@
                             <constraint firstItem="Kf6-kF-ZLk" firstAttribute="leading" secondItem="Pkq-zK-bYv" secondAttribute="leading" constant="20" id="0bi-VO-igJ"/>
                             <constraint firstAttribute="bottom" secondItem="Kf6-kF-ZLk" secondAttribute="bottom" multiplier="1.1" constant="50" id="ARu-VF-hFd"/>
                             <constraint firstItem="Kf6-kF-ZLk" firstAttribute="top" secondItem="adh-Vc-ocD" secondAttribute="top" constant="115" id="F1t-lP-Q0M">
-                                <variation key="heightClass=compact-widthClass=regular" constant="20"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
                             </constraint>
                             <constraint firstItem="Kf6-kF-ZLk" firstAttribute="leading" secondItem="Pkq-zK-bYv" secondAttribute="leading" constant="20" id="N2G-Dr-57y"/>
-                            <constraint firstAttribute="trailing" secondItem="Kf6-kF-ZLk" secondAttribute="trailing" id="WeN-7s-N0o">
+                            <constraint firstAttribute="trailing" secondItem="Kf6-kF-ZLk" secondAttribute="trailing" constant="20" id="WeN-7s-N0o">
                                 <variation key="heightClass=compact-widthClass=regular" constant="2"/>
                             </constraint>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="MATHEMATICS" image="minus.slash.plus" catalog="system" selectedImage="gyroscope" id="Nrd-1O-MEl"/>
+                    <tabBarItem key="tabBarItem" title="MATHEMATICS" image="minus.slash.plus" catalog="system" selectedImage="minus.slash.plus" id="Nrd-1O-MEl"/>
                     <navigationItem key="navigationItem" id="6zs-V7-18i"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wOW-z9-Tfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
