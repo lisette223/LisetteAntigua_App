@@ -61,7 +61,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
         let spacing: Float = 0.005
 
-        let titleNode = textNode(scientist.name, font: UIFont.boldSystemFont(ofSize: 10), color:UIColor.red)
+        let titleNode = textNode(scientist.name, font: UIFont.boldSystemFont(ofSize: 10), color:UIColor.systemTeal)
         titleNode.pivotOnTopLeft()
 
         titleNode.position.x += Float(plane.width / 2) + spacing
@@ -71,23 +71,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
 
 
-        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 100, color: UIColor.blue)
-        bioNode.pivotOnTopLeft()
+    
 
-        bioNode.position.x += Float(plane.width / 2) + spacing
-        bioNode.position.y = titleNode.position.y - titleNode.height - spacing
-        planeNode.addChildNode(bioNode)
-
-
-        let fieldNode = textNode(scientist.field, font:UIFont.systemFont(ofSize: 4), maxWidth: 100, color:UIColor.yellow)
+        let fieldNode = textNode("Area of Expertise: " + scientist.field, font:UIFont.systemFont(ofSize: 4), maxWidth: 100, color:UIColor.yellow)
                fieldNode.pivotOnTopLeft()
                
               
-               fieldNode.position.x += Float(plane.width / 2) + spacing * 20
-               fieldNode.position.y += Float(plane.height / 2) + spacing
+               fieldNode.position.x += Float(plane.width / 2) + spacing
+               fieldNode.position.y += Float(plane.height / 6) + spacing
                planeNode.addChildNode(fieldNode)
                
+        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 150, color: UIColor.white)
+        bioNode.pivotOnTopLeft()
 
+        bioNode.position.x += Float(plane.width / 2) + spacing
+        bioNode.position.y = titleNode.position.y - titleNode.height - spacing * 4
+        planeNode.addChildNode(bioNode)
 
         return node
     }
