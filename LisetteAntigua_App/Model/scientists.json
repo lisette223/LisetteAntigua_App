@@ -57,8 +57,25 @@
     "turing": {
         "name": "Alan Turing",
         "field": "Various STEM Fields",
-        "bio": "Alan Mathison Turing; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist.Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.[8][9][10] Turing is widely considered to be the father of theoretical computer science and artificial intelligence.",
+        "bio": "Alan Mathison Turing; 23 June 1912 – 7 June 1954) was an English mathematician, computer scientist, logician, cryptanalyst, philosopher, and theoretical biologist.Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general-purpose computer.Turing is widely considered to be the father of theoretical computer science and artificial intelligence.",
         "source": "https://en.wikipedia.org/wiki/Alan_Turing"
+    },
+    "page": {
+        "name": "Larry Page",
+        "field": "Computer Science",
+        "bio": "Lawrence Edward Page (born March 26, 1973) is an American computer scientist and Internet entrepreneur. He is best known as one of the co-founders of Google along with Sergey Brin. Page was the chief executive officer of Google from 1997 until August 2001 (stepping down in favor of Eric Schmidt) then from April 2011 until July 2015 when he moved to become CEO of Alphabet Inc. (created to deliver \"major advancements\" as Google's parent company), a post he held until December 4, 2019. He remains an Alphabet board member, employee, and controlling shareholder.",
+        "source": "https://en.wikipedia.org/wiki/Larry_Page"
+    },
+    "hopper": {
+        "name": "Grace Hopper",
+        "field": "Computer Science",
+        "bio": "Grace Brewster Murray Hopper (née Murray December 9, 1906 – January 1, 1992) was an American computer scientist and United States Navy rear admiral.[1] One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the first linkers. Hopper was the first to devise the theory of machine-independent programming languages, and the FLOW-MATIC programming language she created using this theory was later extended to create COBOL, an early high-level programming language still in use today.",
+        "source": "https://en.wikipedia.org/wiki/Grace_Hopper"
+    },
+    "jemison": {
+        "name": "Mae Jemison",
+        "field": "Engineering",
+        "bio": "Mae Carol Jemison (born October 17, 1956) is an American engineer, physician, and former NASA astronaut. She became the first black woman to travel into space when she served as a mission specialist aboard the Space Shuttle Endeavour. Jemison joined NASA's astronaut corps in 1987 and was selected to serve for the STS-47 mission, during which she orbited the Earth for nearly eight days on September 12–20, 1992.Born in Alabama and raised in Chicago, Jemison graduated from Stanford University with degrees in chemical engineering as well as African and African-American studies. She then earned her medical degree from Cornell University. Jemison was a doctor for the Peace Corps in Liberia and Sierra Leone from 1983 until 1985 and worked as a general practitioner. In pursuit of becoming an astronaut, she applied to NASA.",
+        "source": "https://en.wikipedia.org/wiki/Mae_Jemison"
     }
-   
 }

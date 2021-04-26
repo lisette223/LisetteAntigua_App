@@ -61,7 +61,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
         let spacing: Float = 0.005
 
-        let titleNode = textNode(scientist.name, font: UIFont.boldSystemFont(ofSize: 10))
+        let titleNode = textNode(scientist.name, font: UIFont.boldSystemFont(ofSize: 10), color:UIColor.red)
         titleNode.pivotOnTopLeft()
 
         titleNode.position.x += Float(plane.width / 2) + spacing
@@ -71,7 +71,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
 
 
-        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 50)
+        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 100, color: UIColor.blue)
         bioNode.pivotOnTopLeft()
 
         bioNode.position.x += Float(plane.width / 2) + spacing
@@ -79,7 +79,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         planeNode.addChildNode(bioNode)
 
 
-        let fieldNode = textNode(scientist.field, font:UIFont.systemFont(ofSize: 4), maxWidth: 100)
+        let fieldNode = textNode(scientist.field, font:UIFont.systemFont(ofSize: 4), maxWidth: 100, color:UIColor.yellow)
                fieldNode.pivotOnTopLeft()
                
               
@@ -110,11 +110,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         scientists = loadedScientists
     }
 
-    func textNode(_ str: String, font: UIFont, maxWidth: Int? = nil) -> SCNNode {
+    func textNode(_ str: String, font: UIFont, maxWidth: Int? = nil, color:UIColor) -> SCNNode {
         let text = SCNText(string: str, extrusionDepth: 0)
 
         text.flatness = 0.1
         text.font = font
+        text.firstMaterial?.diffuse.contents = color
 
         if let maxWidth = maxWidth {
             text.containerFrame = CGRect(origin: .zero, size: CGSize(width: maxWidth, height: 500))
