@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0tl-T3-Uk3">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
@@ -14,14 +15,14 @@
             <objects>
                 <viewController id="SNr-Dj-6pT" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IvJ-Ca-AIh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Eos-ER-l4o">
-                                <rect key="frame" x="0.0" y="140" width="414" height="629"/>
+                                <rect key="frame" x="0.0" y="102" width="1024" height="1094.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="SCIENCE" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEl-en-Q9F">
-                                        <rect key="frame" x="104" y="0.0" width="206" height="50"/>
+                                        <rect key="frame" x="409" y="0.0" width="206" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.14999999999999999" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="AjX-9S-EPi"/>
@@ -35,7 +36,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="CMQ-o7-47N">
-                                        <rect key="frame" x="20" y="50" width="374" height="200"/>
+                                        <rect key="frame" x="20" y="50" width="984" height="200"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="j5n-Wr-vqL">
@@ -48,7 +49,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="science careers" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-dh-IYJ">
-                                        <rect key="frame" x="0.0" y="250" width="414" height="379"/>
+                                        <rect key="frame" x="0.0" y="250" width="1024" height="844.5"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
@@ -88,14 +89,14 @@
             <objects>
                 <viewController title="TECHNOLOGY" id="fMC-QZ-vz9" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRS-HV-Jr1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fto-ay-NOu">
-                                <rect key="frame" x="20" y="115" width="374" height="654"/>
+                                <rect key="frame" x="20" y="115" width="984" height="1081.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="TECHNOLOGY" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6i-Jy-Dry">
-                                        <rect key="frame" x="20" y="0.0" width="334.5" height="50"/>
+                                        <rect key="frame" x="325" y="0.0" width="334.5" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="wRf-k0-tMP"/>
@@ -109,7 +110,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="b2A-du-jJn">
-                                        <rect key="frame" x="0.0" y="50" width="374" height="250"/>
+                                        <rect key="frame" x="121" y="50" width="742.5" height="250"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="250" id="yn0-ML-VIf">
@@ -122,7 +123,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Technology Careers" translatesAutoresizingMaskIntoConstraints="NO" id="kBC-df-l25">
-                                        <rect key="frame" x="0.0" y="300" width="374" height="354"/>
+                                        <rect key="frame" x="277" y="300" width="430" height="781.5"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular">
@@ -146,7 +147,7 @@
                             </constraint>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="TECHNOLOGY" image="gyroscope" catalog="system" selectedImage="keyboard" id="pW0-a5-qDf"/>
+                    <tabBarItem key="tabBarItem" title="TECHNOLOGY" image="keyboard" catalog="system" selectedImage="keyboard" id="pW0-a5-qDf"/>
                     <navigationItem key="navigationItem" id="QvA-fY-ns6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RcZ-oR-fE1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -158,11 +159,11 @@
             <objects>
                 <viewController title="ARKIT" id="BV1-FR-VrT" customClass="ViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1346"/>
                             </arscnView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
@@ -188,35 +189,35 @@
             <objects>
                 <viewController title="Home" id="0qx-kE-S6O" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vLa-33-dK8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UNh-5C-Kle">
-                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
+                                <rect key="frame" x="0.0" y="102" width="1024" height="1230"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ALH-9d-yV3">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="646"/>
+                                        <rect key="frame" x="52" y="0.0" width="920" height="974"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn STEM" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JE-gq-dq9">
-                                                <rect key="frame" x="48" y="0.0" width="318.5" height="70"/>
+                                                <rect key="frame" x="301" y="0.0" width="318.5" height="70"/>
                                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="64"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" image="STEM logo" translatesAutoresizingMaskIntoConstraints="NO" id="Afw-tv-MNr">
-                                                <rect key="frame" x="0.0" y="70" width="414" height="576"/>
+                                                <rect key="frame" x="0.0" y="70" width="920" height="904"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RwE-Po-DwB">
-                                        <rect key="frame" x="143" y="654" width="128" height="30"/>
+                                        <rect key="frame" x="448" y="1072" width="128" height="30"/>
                                         <state key="normal" title="Learn About STEM"/>
                                         <connections>
                                             <segue destination="1fY-pv-zns" kind="show" id="u97-6z-aT9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N44-mS-A9R">
-                                        <rect key="frame" x="95" y="692" width="224" height="30"/>
+                                        <rect key="frame" x="400" y="1200" width="224" height="30"/>
                                         <state key="normal" title="Learn About STEM Professionals"/>
                                         <connections>
                                             <segue destination="BV1-FR-VrT" kind="show" id="Icg-yX-YCN"/>
@@ -248,7 +249,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0tl-T3-Uk3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ayc-LQ-Dya">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -287,14 +288,14 @@
             <objects>
                 <viewController title="ENGINEERING" id="FWN-WT-cri" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nqY-dE-eIJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yqa-Df-TxH">
-                                <rect key="frame" x="20" y="115" width="374" height="654"/>
+                                <rect key="frame" x="20" y="115" width="984" height="1081.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="ENGINEERING" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIs-4r-trF">
-                                        <rect key="frame" x="26.5" y="0.0" width="321" height="50"/>
+                                        <rect key="frame" x="331.5" y="0.0" width="321" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="oQ8-ee-20s">
@@ -310,7 +311,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="XVy-QG-jMv">
-                                        <rect key="frame" x="0.0" y="50" width="374" height="300"/>
+                                        <rect key="frame" x="114.5" y="50" width="755" height="300"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="hUA-QH-fsb">
@@ -324,7 +325,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Engineering Careers" translatesAutoresizingMaskIntoConstraints="NO" id="mKL-et-41u">
-                                        <rect key="frame" x="0.0" y="350" width="374" height="304"/>
+                                        <rect key="frame" x="172" y="350" width="640" height="731.5"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular">
@@ -360,14 +361,14 @@
             <objects>
                 <viewController title="MATHEMATICS" id="gtw-ew-dfb" customClass="HomeViewController" customModule="LisetteAntigua_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="adh-Vc-ocD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kf6-kF-ZLk">
-                                <rect key="frame" x="20" y="115" width="374" height="681.5"/>
+                                <rect key="frame" x="20" y="115" width="984" height="1108.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" text="MATHEMATICS" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdW-bu-bFc">
-                                        <rect key="frame" x="15.5" y="0.0" width="343" height="50"/>
+                                        <rect key="frame" x="320.5" y="0.0" width="343" height="50"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="vzV-0l-YRn">
@@ -383,7 +384,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="740" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" minimumFontSize="11" preferredMaxLayoutWidth="755" translatesAutoresizingMaskIntoConstraints="NO" id="Rpy-Zv-m8z">
-                                        <rect key="frame" x="0.0" y="50" width="374" height="260"/>
+                                        <rect key="frame" x="118" y="50" width="748" height="260"/>
                                         <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="260" id="eQD-MN-jhN">
@@ -396,7 +397,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="math careers" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-ol-PJ6">
-                                        <rect key="frame" x="0.0" y="310" width="374" height="371.5"/>
+                                        <rect key="frame" x="267" y="310" width="450" height="798.5"/>
                                     </imageView>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=regular">
