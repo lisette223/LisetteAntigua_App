@@ -81,7 +81,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                fieldNode.position.y += Float(plane.height / 6) + spacing
                planeNode.addChildNode(fieldNode)
                
-        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 150, color: UIColor.white)
+        let bioNode = textNode(scientist.bio, font: UIFont.systemFont(ofSize: 4), maxWidth: 100, color: UIColor.white)
         bioNode.pivotOnTopLeft()
 
         bioNode.position.x += Float(plane.width / 2) + spacing
