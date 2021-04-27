@@ -72,6 +72,12 @@
         "bio": "Grace Brewster Murray Hopper (née Murray December 9, 1906 – January 1, 1992) was an American computer scientist and United States Navy rear admiral.[1] One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the first linkers. Hopper was the first to devise the theory of machine-independent programming languages, and the FLOW-MATIC programming language she created using this theory was later extended to create COBOL, an early high-level programming language still in use today.",
         "source": "https://en.wikipedia.org/wiki/Grace_Hopper"
     },
+    "jobs": {
+        "name":"Steve Jobs",
+        "field":"Computer Science",
+        "bio": "Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American business magnate, industrial designer, investor, and media proprietor. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc.; the chairman and majority shareholder of Pixar; a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak.",
+        "source": "https://en.wikipedia.org/wiki/Steve_Jobs"
+    },
     "jemison": {
         "name": "Mae Jemison",
         "field": "Engineering",
@@ -83,11 +89,6 @@
         "field": "Physics",
         "bio": "Sabrina Gonzalez Pasterski (born June 3, 1993) is an American theoretical physicist from Chicago who studies high energy physics.She describes herself as \"a proud first-generation Cuban-American and Chicago Public Schools alumna\" She completed her undergraduate studies at the Massachusetts Institute of Technology (MIT), earned her PhD from Harvard University and is a PCTS Postdoctoral Fellow at Princeton University.According to Google Trends, Pasterski was the #3 Trending Scientist for all of 2017.In 2015, she was named to the Forbes 30 under 30 Science list, named a Forbes 30 under 30 All Star in 2017, and returned as a judge in 2018 as part of Forbes' first ever all-female Science category judging panel.She is known for her unusual list of accomplishments including a 5.00 undergraduate GPA from MIT.",
         "source": "https://en.wikipedia.org/wiki/Sabrina_Gonzalez_Pasterski"
-    },
-    "jobs": {
-        "name": "Steve Jobs",
-        "field": "Computer Science",
-        "bio": "Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American business magnate, industrial designer, investor, and media proprietor. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc.; the chairman and majority shareholder of Pixar; a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and the founder, chairman, and CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder Steve Wozniak.",
-        "source": "https://en.wikipedia.org/wiki/Steve_Jobs"
     }
+    
 }
